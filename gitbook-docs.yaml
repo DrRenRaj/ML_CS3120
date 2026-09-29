@@ -1,12 +1,18 @@
-   $schema: https://api.gitbook.com/gitbook-docs.yaml
-   version: 1
-   site:
-     title: ML_CS3120
-     structure:
-       - type: space
-         key: space-docs
-         title: Docs
-         path: docs
-         default: true
-         content:
-           directory: ./Docs
+$schema: https://api.gitbook.com/gitbook-docs.yaml
+version: 1
+site:
+  title: Introduction to Machine Learning
+  structure:
+    - type: space
+      key: space-docs          # keep this key so GitBook treats it as the same space
+      title: Textbook
+      path: book
+      default: true
+      content:
+        directory: ./book
+    - type: space
+      key: space-labs
+      title: Labs & Assignments
+      path: labs
+      content:
+        directory: ./labs
