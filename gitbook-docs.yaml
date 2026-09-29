@@ -4,7 +4,7 @@ site:
   title: Introduction to Machine Learning
   structure:
     - type: space
-      key: space-docs          # keep this key so GitBook treats it as the same space
+      key: space-docs
       title: Textbook
       path: book
       default: true
