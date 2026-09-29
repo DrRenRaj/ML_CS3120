@@ -1,0 +1,12 @@
+   $schema: https://api.gitbook.com/gitbook-docs.yaml
+   version: 1
+   site:
+     title: ML_CS3120
+     structure:
+       - type: space
+         key: space-docs
+         title: Docs
+         path: docs
+         default: true
+         content:
+           directory: ./Docs
